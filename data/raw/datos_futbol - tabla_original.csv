@@ -1,0 +1,21 @@
+equipo_local,equipo_visitante,jugador_local,posicion_local,nacionalidad_local,edad_local,camiseta_local,jugador_visitante,nacionalidad_visitante,edad_visitante,camiseta_visitante,posición_visitante,fecha,goles_local,goles_visitante,estadio,arbitro
+Real Madrid,Barcelona,Sergio Ramos,Defensa,Español,34,4,Lionel Messi,Argentino,33,10,Delantero,1/6/2023,2,1,Santiago Bernabéu,Antonio Mateu Lahoz
+Real Madrid,Barcelona,Karim Benzema,Delantero,Frances,32,9,Gerard Piqué,Español,33,3,Defensa,1/6/2023,2,1,Santiago Bernabéu,Antonio Mateu Lahoz
+Barcelona,Real Madrid,Lionel Messi,Delantero,Argentino,33,10,Sergio Ramos,Español,34,4,Defensa,1/12/2023,3,2,Camp Nou,Carlos del Cerro Grande
+Barcelona,Real Madrid,Gerard Piqué,Defensa,Español,33,3,Karim Benzema,Frances,32,9,Delantero,1/12/2023,3,2,Camp Nou,Carlos del Cerro Grande
+Atlético Madrid,Valencia,Jan Oblak,Portero,Esloveno,27,13,José Gayà,Español,25,14,Defensa,10/7/2023,1,1,Wanda Metropolitano,Alejandro Hernández
+Atlético Madrid,Valencia,Koke,Mediocampista,Español,28,6,Carlos Soler,Español,23,8,Mediocampista,10/7/2023,1,1,Wanda Metropolitano,Alejandro Hernández
+Valencia,Atlético Madrid,José Gayà,Defensa,Español,25,14,Jan Oblak,Esloveno,27,13,Portero,15/11/2023,0,0,Mestalla,Jesús Gil Manzano
+Valencia,Atlético Madrid,Carlos Soler,Mediocampista,Español,23,8,Koke,Español,28,6,Mediocampista,15/11/2023,0,0,Mestalla,Jesús Gil Manzano
+Sevilla,Villarreal,Jesús Navas,Defensa,Español,34,16,Gerard Moreno,Español,28,7,Delantero,20/8/2023,2,2,Ramón Sánchez Pizjuá,José María Sánchez
+Sevilla,Villarreal,Ivan Rakitić,Mediocampista,Croata,32,10,Pau Torres,Español,23,4,Defensa,20/8/2023,2,2,Ramón Sánchez Pizjuá,José María Sánchez
+Villarreal,Sevilla,Gerard Moreno,Delantero,Español,28,7,Jesús Navas,Español,34,16,Defensa,30/10/2023,1,3,Estadio de la Cerámica,Ricardo de Burgos
+Villarreal,Sevilla,Pau Torres,Defensa,Español,23,4,Ivan Rakitić,Croata,32,10,Mediocampista,30/10/2023,1,3,Estadio de la Cerámica,Ricardo de Burgos
+Real Sociedad,Athletic Club,Mikel Oyarzabal,Delantero,Español,23,10,Iñaki Williams,Español,23,10,Delantero,14/9/2023,2,2,Reale Arena,Santiago Jaime Latre
+Real Sociedad,Athletic Club,David Silva,Mediocampista,Español,34,21,Iker Muniain,Español,34,21,Mediocampista,14/9/2023,2,2,Reale Arena,Santiago Jaime Latre
+Athletic Club,Real Sociedad,Iñaki Williams,Delantero,Español,26,9,Mikel Oyarzabal,Español,26,9,Delantero,5/12/2023,1,1,San Mamés,Javier Alberola Rojas
+Athletic Club,Real Sociedad,Iker Muniain,Mediocampista,Español,27,10,David Silva,Español,27,10,Mediocampista,5/12/2023,1,1,San Mamés,Javier Alberola Rojas
+Valencia,Real Madrid,Gonçalo Guedes,Delantero,Portugués,24,7,Luka Modrić,Croata,35,10,Mediocampista,2/10/2023,1,1,Mestalla,Alejandro Hernández
+Valencia,Real Madrid,Maxi Gómez,Delantero,Uruguayo,25,22,Toni Kroos,Alemán,31,8,Mediocampista,2/10/2023,1,1,Mestalla,Alejandro Hernández
+Villarreal,Barcelona,Pau Torres,Defensa,Español,23,4,Antoine Griezmann,Francés,29,7,Delantero,6/11/2023,1,2,Estadio de la Cerámica,José María Sánchez
+Villarreal,Barcelona,Dani Parejo,Mediocampista,Español,31,5,Frenkie de Jong,Neerlandés,24,21,Mediocampista,6/11/2023,1,2,Estadio de la Cerámica,José María Sánchez
