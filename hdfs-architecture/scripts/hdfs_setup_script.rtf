@@ -1,0 +1,144 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fmodern Consolas;}{\f1\fmodern\fcharset0 Consolas;}{\f2\fnil\fcharset129 Courier New;}}
+{\colortbl ;\red20\green20\blue20;\red142\green142\blue142;\red16\green158\blue98;\red148\green146\blue12;\red170\green51\blue170;\red56\green136\blue159;\red170\green64\blue64;\red85\green85\blue85;\red18\green124\blue155;}
+\viewkind4\uc1\pard\f0\fs20 login as: cloudera\cf1\highlight2 
+\par \cf0\highlight0     \u9484?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9488?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?                 \cf3\f1\bullet  MobaXterm Personal Edition v25.2 \bullet\cf0\f0                  \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?               \cf4 (SSH client, X server and network tools)\cf0                \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?                                                                      \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474? \u11166? SSH session to \cf5 cloudera@192.168.0.198                    \cf0           \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?\f1    \bullet  Direct SSH      :  \cf3\f0\u10003?\cf0                                              \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?\f1    \bullet  SSH compression :  \cf3\f0\u10003?\cf0                                              \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?\f1    \bullet  SSH-browser     :  \cf3\f0\u10003?\cf0                                              \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?\f1    \bullet  X11-forwarding  :  \cf3\f0\u10003?\cf0   (remote display is forwarded through SSH)  \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?                                                                      \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474? \u11166? For more info, ctrl+click on \cf6\ul help\cf0\ulnone  or visit our \cf6\ul website\cf0\ulnone .            \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9492?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9496?\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Last login: Tue Sep  9 09:43:26 2025 from 192.168.0.165\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ cd\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ mkdir bigdata_softacorp\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ pwd\cf1\highlight2 
+\par \cf0\highlight0 /home/cloudera\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ ^C\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ cd /home/cloudera/bigdata_softacorp\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ ls -1\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ ^C\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ ls -1\cf1\highlight2 
+\par \cf0\highlight0 empresa.data\cf1\highlight2 
+\par \cf0\highlight0 persona.data\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ su - cloudera\cf1\highlight2 
+\par \cf0\highlight0 Password:\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ /usr/bin/hdfs dfs -mkdir -p /user/miusuario/ejercicio1/carp          eta1/subcarpeta1\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ /usr/bin/hdfs dfs -mkdir /user/miusuario/ejercicio1\cf1\highlight2 
+\par \cf0\highlight0 mkdir: `/user/miusuario/ejercicio1': File exists\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ /usr/bin/hdfs dfs -mkdir /user/miusuario/ejercicio1/carpeta          1\cf1\highlight2 
+\par \cf0\highlight0 mkdir: `/user/miusuario/ejercicio1/carpeta1': File exists\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ /usr/bin/hdfs dfs -mkdir /user/miusuario/ejercicio1/carpeta          2\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ /usr/bin/hdfs dfs -mkdir /user/miusuario/ejercicio1/carpeta          3\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ /usr/bin/hdfs dfs -mkdir /user/miusuario/ejercicio1/data1\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ /usr/bin/hdfs dfs -mkdir /user/miusuario/ejercicio1/data2\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ /usr/bin/hdfs dfs -mkdir /user/miusuario/ejercicio1/data3\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ /usr/bin/hdfs dfs -mkdir -p /user/miusuario/ejercicio1/carp          eta1/subcarpeta2\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ /usr/bin/hdfs dfs -mkdir -p /user/miusuario/ejercicio1/carp          eta1/subcarpeta3\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ /usr/bin/hdfs dfs -mkdir -p /user/miusuario/ejercicio1/carp          eta2\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ /usr/bin/hdfs dfs -mkdir -p /user/miusuario/ejercicio1/carp          eta3\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ /usr/bin/hdfs dfs -mkdir -p /user/miusuario/ejercicio1/data          1\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ /usr/bin/hdfs dfs -mkdir -p /user/miusuario/ejercicio1/data          3\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ /usr/bin/hdfs dfs -mkdir -p /user/miusuario/ejercicio1/data          2/2017-01-27\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ /usr/bin/hdfs dfs -mkdir -p /user/miusuario/ejercicio1/data          2/2017-01-28\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ /usr/bin/hdfs dfs -mkdir -p /user/miusuario/ejercicio1/data          2/2017-01-29\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ /usr/bin/hdfs dfs -put /home/cloudera/bigdata_softacorp/per          sona.data /user/miusuario/ejercicio1/carpeta1/subcarpeta1/persona.data\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ /usr/bin/hdfs dfs -put /home/cloudera/bigdata_softacorp/emp          resa.data /user/miusuario/ejercicio1/carpeta2/empresa.data\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$\cf1\highlight2 
+\par \cf7\highlight0 Network error: Software caused connection abort\cf1\highlight2 
+\par 
+\par \cf8\highlight0\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\cf1\highlight2 
+\par 
+\par \cf7\highlight0 Session stopped\cf1\highlight2 
+\par \cf0\highlight0     - Press \cf5 <Return>\cf0  to exit tab\cf1\highlight2 
+\par \cf0\highlight0     - Press \cf5 R\cf0  to restart session\cf1\highlight2 
+\par \cf0\highlight0     - Press \cf5 S\cf0  to save terminal output to file\cf1\highlight2 
+\par \cf0\highlight0 login as: cloudera\cf1\highlight2 
+\par \cf0\highlight0     \u9484?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9488?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?                 \cf3\f1\bullet  MobaXterm Personal Edition v25.2 \bullet\cf0\f0                  \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?               \cf4 (SSH client, X server and network tools)\cf0                \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?                                                                      \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474? \u11166? SSH session to \cf5 cloudera@192.168.0.198                    \cf0           \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?\f1    \bullet  Direct SSH      :  \cf3\f0\u10003?\cf0                                              \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?\f1    \bullet  SSH compression :  \cf3\f0\u10003?\cf0                                              \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?\f1    \bullet  SSH-browser     :  \cf3\f0\u10003?\cf0                                              \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?\f1    \bullet  X11-forwarding  :  \cf3\f0\u10003?\cf0   (remote display is forwarded through SSH)  \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474?                                                                      \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9474? \u11166? For more info, ctrl+click on \cf6\ul help\cf0\ulnone  or visit our \cf6\ul website\cf0\ulnone .            \u9474?\cf1\highlight2 
+\par \cf0\highlight0     \u9492?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9496?\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Last login: Thu Sep 18 21:15:50 2025 from 192.168.0.165\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ cd\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ pwd\cf1\highlight2 
+\par \cf0\highlight0 /home/cloudera\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ ls -1\cf1\highlight2 
+\par \cf9\highlight0 bigdata_softacorp\cf1\highlight2 
+\par \cf3\highlight0 cloudera-manager\cf1\highlight2 
+\par \cf3\highlight0 cm_api.py\cf1\highlight2 
+\par \cf9\highlight0 Datasets\cf1\highlight2 
+\par \cf9\highlight0 Desktop\cf1\highlight2 
+\par \cf9\highlight0 Documents\cf1\highlight2 
+\par \cf9\highlight0 Downloads\cf1\highlight2 
+\par \cf9\highlight0 eclipse\cf1\highlight2 
+\par \cf0\highlight0 enterprise-deployment.json\cf1\highlight2 
+\par \cf0\highlight0 express-deployment.json\cf1\highlight2 
+\par \cf3\highlight0 kerberos\cf1\highlight2 
+\par \cf9\highlight0 lib\cf1\highlight2 
+\par \cf9\highlight0 Music\cf1\highlight2 
+\par \cf9\highlight0 Pictures\cf1\highlight2 
+\par \cf9\highlight0 Public\cf1\highlight2 
+\par \cf9\highlight0 Templates\cf1\highlight2 
+\par \cf9\highlight0 Videos\cf1\highlight2 
+\par \cf9\highlight0 workspace\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ cd /home/cloudera/bigdata_softacorp\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ ls -1\cf1\highlight2 
+\par \cf0\highlight0 empresa.data\cf1\highlight2 
+\par \cf0\highlight0 persona.data\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ su - cloudera\cf1\highlight2 
+\par \cf0\highlight0 Password:\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart ~]$ cd /home/cloudera/bigdata_softacorp\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ ls -l\cf1\highlight2 
+\par \cf0\highlight0 total 16\cf1\highlight2 
+\par \cf0\highlight0 -rw-rw-r-- 1 cloudera cloudera 3278 Jun 21 03:41 datos_futbol - tabla_original.csv\cf1\highlight2 
+\par \cf0\highlight0 -rw-rw-r-- 1 cloudera cloudera  105 Sep 18 14:18 empresa.data\cf1\highlight2 
+\par \cf0\highlight0 -rw-rw-r-- 1 cloudera cloudera 7282 Sep 18 14:18 persona.data\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ ^C\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ mv "datos_futbol - tabla_original.csv" file          .csv\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ touch voidfile.csv\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ ls -l /home/cloudera/bigdata_softacorp\cf1\highlight2 
+\par \cf0\highlight0 total 16\cf1\highlight2 
+\par \cf0\highlight0 -rw-rw-r-- 1 cloudera cloudera  105 Sep 18 14:18 empresa.data\cf1\highlight2 
+\par \cf0\highlight0 -rw-rw-r-- 1 cloudera cloudera 3278 Jun 21 03:41 file.csv\cf1\highlight2 
+\par \cf0\highlight0 -rw-rw-r-- 1 cloudera cloudera 7282 Sep 18 14:18 persona.data\cf1\highlight2 
+\par \cf0\highlight0 -rw-rw-r-- 1 cloudera cloudera    0 Sep 19 10:35 voidfile.csv\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ /usr/bin/hdfs dfs -put /home/cloudera/bigda          ta_softacorp/persona.data /user/miusuario/ejercicio1/carpeta1/subcarpeta1/persona.da          ta\cf1\highlight2 
+\par \cf0\highlight0 put: `/user/miusuario/ejercicio1/carpeta1/subcarpeta1/persona.data': File exists\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ /usr/bin/hdfs dfs -put /home/cloudera/bigda          ta_softacorp/empresa.data /user/miusuario/ejercicio1/carpeta2/empresa.data\cf1\highlight2 
+\par \cf0\highlight0 put: `/user/miusuario/ejercicio1/carpeta2/empresa.data': File exists\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ /usr/bin/hdfs dfs -put /home/cloudera/bigda          ta_softacorp/file.csv /user/miusuario/ejercicio1/data1/file.csv\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ /usr/bin/hdfs dfs -put /home/cloudera/bigda          ta_softacorp/voidfile.csv /user/miusuario/ejercicio1/data1/voidfile.csv\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ /usr/bin/hdfs dfs -put /home/cloudera/bigda          ta_softacorp/file.csv /user/miusuario/ejercicio1/data2/2017-01-27/file.csv\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ /usr/bin/hdfs dfs -put /home/cloudera/bigda          ta_softacorp/file.csv /user/miusuario/ejercicio1/data2/2017-01-28/file.csv\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ /usr/bin/hdfs dfs -put /home/cloudera/bigda          ta_softacorp/file.csv /user/miusuario/ejercicio1/data2/2017-01-29/file.csv\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ /usr/bin/hdfs dfs -ls /user/miusuario/ejerc          icio1/carpeta1/subcarpeta1\cf1\highlight2 
+\par \cf0\highlight0 Found 1 items\cf1\highlight2 
+\par \cf0\highlight0 -rw-r--r--   1 cloudera supergroup       7282 2025-09-18 23:00 /user/miusuario/ejerc          icio1/carpeta1/subcarpeta1/persona.data\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ ^C\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ ^C\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ ^C\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ ^C\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ ^C\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ ^C\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$ /usr/bin/hdfs dfs -ls /user/miusuario/ejercicio1/data1\cf1\highlight2 
+\par \cf0\highlight0 Found 2 items\cf1\highlight2 
+\par \cf0\highlight0 -rw-r--r--   1 cloudera supergroup       3278 2025-09-19 12:25 /user/miusuario/ejercicio1/data1/file.csv\cf1\highlight2 
+\par \cf0\highlight0 -rw-r--r--   1 cloudera supergroup          0 2025-09-19 12:25 /user/miusuario/ejercicio1/data1/voidfile.csv\cf1\highlight2 
+\par \cf0\highlight0 [cloudera@quickstart bigdata_softacorp]$\cf1\highlight2 
+\par \pard\cf0\highlight0\f2 
+\par }
+ 
