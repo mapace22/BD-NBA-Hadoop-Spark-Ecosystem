@@ -25,4 +25,3 @@ Hands-on implementation of Spark RDDs to analyze NBA metrics:
 - **Apache Spark (RDDs / PySpark)**
 - **Cluster Computing Architecture**
 - **Distributed Data Modeling**
-- 
